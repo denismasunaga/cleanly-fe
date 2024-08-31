@@ -36,21 +36,51 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "O que é a Cleanly?",
+    answer: "A Cleanly é uma plataforma online que conecta clientes com profissionais de limpeza de confiança. Facilitamos a marcação de serviços de limpeza para sua casa ou escritório, oferecendo uma experiência simples, segura e eficaz.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Como posso marcar um serviço de limpeza?",
+    answer: "Marcar um serviço de limpeza com a Cleanly é fácil! Basta seguir estes passos: Insira a sua localização e escolha o tipo de serviço de limpeza que precisa. Navegue pelos perfis dos profissionais disponíveis e selecione o que melhor se adequa às suas necessidades. Agende a data e a hora que preferir e confirme a sua marcação através da nossa plataforma segura.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Os profissionais de limpeza são verificados?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Sim, todos os profissionais de limpeza na Cleanly são rigorosamente verificados. Realizamos verificações de antecedentes e avaliações contínuas baseadas no feedback dos clientes para garantir que apenas os melhores profissionais estão disponíveis na nossa plataforma.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Como é feito o pagamento?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "O pagamento é feito diretamente através da nossa plataforma no momento da marcação. Aceitamos vários métodos de pagamento seguros, incluindo cartão de crédito e PayPal. O pagamento só é processado após a conclusão do serviço.",
+  },
+  {
+    question: "O que acontece se eu não estiver satisfeito com o serviço?",
+    answer:
+      "A satisfação do cliente é a nossa prioridade. Se não estiver satisfeito com o serviço prestado, contacte-nos dentro de 24 horas após a conclusão do serviço. Faremos o possível para resolver o problema, incluindo a possibilidade de uma nova limpeza ou reembolso.",
+  },
+  {
+    question: "Posso cancelar ou reagendar uma marcação?",
+    answer:
+      "Sim, pode cancelar ou reagendar a sua marcação através da nossa plataforma, com antecedência mínima de 24 horas. Consulte os nossos Termos de Serviço para informações detalhadas sobre cancelamentos e reembolsos.",
+  },
+  {
+    question: "Como posso tornar-me um profissional de limpeza na Cleanly?",
+    answer:
+      "Se deseja oferecer os seus serviços na Cleanly, pode inscrever-se como profissional de limpeza através do nosso site. Após o registo, passará por um processo de verificação e, se aprovado, poderá começar a receber pedidos de clientes na sua área.",
+  },
+  {
+    question: "Posso escolher o mesmo profissional de limpeza para futuras marcações?",
+    answer:
+      "Sim, pode escolher o mesmo profissional para futuras marcações, desde que ele esteja disponível na data e hora que deseja. Muitos dos nossos clientes gostam de continuar com o mesmo profissional de confiança.",
+  },
+  {
+    question: "A Cleanly oferece serviços de limpeza para empresas?",
+    answer:
+      "Sim, a Cleanly oferece serviços de limpeza tanto para clientes particulares como para empresas. Pode selecionar o tipo de serviço de que necessita, seja para um pequeno escritório ou para grandes instalações comerciais.",
+  },
+  {
+    question: "Como posso contactar a Cleanly?",
+    answer:
+      "Pode contactar a nossa equipa de apoio ao cliente através do nosso formulário de contacto no site ou enviando um e-mail para [email de suporte]. Estamos aqui para ajudar com qualquer questão ou preocupação que possa ter.",
   },
 ];

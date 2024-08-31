@@ -1,57 +1,63 @@
 import {
+  MagnifyingGlassCircleIcon,
+  CheckCircleIcon,
   FaceSmileIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
-  DevicePhoneMobileIcon,
-  AdjustmentsHorizontalIcon,
-  SunIcon,
+  UserCircleIcon,
+  ClockIcon,
+  CurrencyEuroIcon,
+  SparklesIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Como funciona a Cleanly",
+  desc: "",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Pesquisar",
+      desc: "Introduza a sua localização e escolha o tipo de serviço de limpeza que precisa. Navegue pelos perfis de profissionais de confiança na sua área.",
+      icon: <MagnifyingGlassCircleIcon />,
+    },
+    {
+      title: "Marcar",
+      desc: "Selecione o seu profissional preferido, agende um horário que seja conveniente para si e marque instantaneamente através da nossa plataforma segura.",
+      icon: <CheckCircleIcon />,
+    },
+    {
+      title: "Relaxe",
+      desc: "Relaxe enquanto os nossos profissionais cuidam da limpeza. O pagamento é processado automaticamente após a conclusão do serviço.",
       icon: <FaceSmileIcon />,
-    },
-    {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
-    },
-    {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Por que escolher a Cleanly?",
+  desc: "",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      title: "Profissionais de confiança",
+      desc: "Os nossos profissionais de limpeza são rigorosamente verificados e avaliados por clientes como você, garantindo um serviço de alta qualidade sempre.",
+      icon: <UserCircleIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "Agendamento flexível",
+      desc: "Marque uma limpeza no horário que melhor se adequa à sua agenda, seja uma necessidade de última hora ou uma marcação regular.",
+      icon: <ClockIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "Preços transparentes",
+      desc: "Na Cleanly, não há taxas ocultas. O que vê é o que paga, com tarifas competitivas para todos os orçamentos.",
+      icon: <CurrencyEuroIcon />,
+    },
+    {
+      title: "Satisfação garantida",
+      desc: "Confiamos na qualidade dos nossos serviços. Se não ficar satisfeito, faremos o possível para corrigir.",
+      icon: <SparklesIcon />,
     },
   ],
 };
